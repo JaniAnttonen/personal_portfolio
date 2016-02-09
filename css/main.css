@@ -106,13 +106,13 @@ textarea {
 }
 
 body {
-  background: url('/img/bg1.jpg') center top no-repeat;
-  background-size: 600px 750px;
+  background: url('/img/bg1.jpg') center -60px no-repeat;
+  background-size: 800px 1000px;
 }
 
 header {
   text-align: center;
-  margin: 1em 0 0.4em 0;
+  margin: 1.4em 0 0.4em 0;
 }
 
 h1 {
@@ -125,9 +125,6 @@ i {
   opacity: 0.4;
   transition: opacity 0.5s;
   margin: 6px 14px 0 0;
-  /*background: white;
-  padding: 6px;
-  border-radius: 3px;*/
 }
 i:hover {
   opacity: 0.8;
@@ -135,7 +132,7 @@ i:hover {
 
 p {
   font-size: 0.9em;
-  color: #9074B7;
+  color: #A591C1;
   text-shadow: 0 1px 0px rgba(200,200,200,0.2);
 }
 
