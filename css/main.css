@@ -121,12 +121,12 @@ h1 {
   margin:0;
 }
 
-i {
+i.fa {
   opacity: 0.4;
   transition: opacity 0.5s;
   margin: 6px 14px 0 0;
 }
-i:hover {
+i.fa:hover {
   opacity: 0.8;
 }
 
@@ -148,10 +148,16 @@ section {
 .introduction p {
   text-align: justify;
   max-width: 400px;
+  padding: 0 15px 15px 15px;
 }
 
 .introduction p a {
   font-style: italic;
+}
+
+.introduction i {
+  color: rgb(85, 26, 139);
+  opacity: 0.7;
 }
 
 
